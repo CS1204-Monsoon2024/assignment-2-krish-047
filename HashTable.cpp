@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -153,21 +145,3 @@ public:
         cout << endl;
     }
 };
-
-// Main function to test the hash table
-int main() {
-    HashTable ht(7);
-
-    ht.insert(2);
-    ht.insert(17);
-    ht.insert(37);
-    ht.printTable();
-
-    ht.remove(17);
-    ht.printTable();
-
-    ht.insert(50);
-    ht.printTable();
-
-    return 0;
-}
