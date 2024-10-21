@@ -1,7 +1,8 @@
-Hash: Hashtable.cpp
-	# write the command for compiling a1-5.cpp to a1-5.out
-	g++ -Wall Hashtable.cpp -o Hashtable.out 
-	
+default:
+	default: main
+
+main: main.cpp HashTable.cpp
+    g++ -o main main.cpp HashTable.cpp
 
 clean:
-	rm *.out 
+	rm *.out
